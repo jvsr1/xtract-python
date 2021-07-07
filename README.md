@@ -24,3 +24,4 @@ Currently supported functionality as of 07/01/2021. Documentation is provided as
  - [ ] Add return to function extraction. We include the input parameters, so why not the return parameter?
  - [ ] Find a way to test get_compilation_version and get_compatible_version. Perhaps this could be achieved by finding features that were implemented in each major version of 2.X and 3.X and ensuring that the the interpreter version is as expected.
  - [ ] Perhaps some structure that gives a quick summary of the metadata extracted? This could take the form of a dictionary.
+ - [ ] Adding extensive testing by getting a large amount of python code and testing xtract-python's functionality against that. Difficult to find an API/tool that facilitates a large amount of source code acquisition, but a way around this may be to just test on a number of large python libraries.
